@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: 'bebas';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+.font {
+    font-family: 'droid';
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #A6E69A;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header {
+    font-family: 'bebas';
+    background-image: linear-gradient(to bottom, #53AD40,#466141);
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+li {
+    margin: none;
+    padding-right: 20px;
+    display: inline-block;
+}
+#titulo {
+    color: #466141;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+#menu {
+    width: 100%;  
+}
+.mymenu {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+.mymenu:hover {
+    color: green;
+    border-bottom: 2px solid black;
+}
+main {
+    background-color: whitesmoke;
+    padding: 1%;
+}
+.subtitulo {
+    background-image: linear-gradient(to right, #A6E69A, white);
+    padding-left: 1%;
+    color: #53AD40;
+    text-shadow: 1px 1px 1px black;
+}
+aside {
+    background-color: #A6E69A;
+    border-radius: 10px;
+    text-overflow:clip;
+}
+div {
+    text-align: center;
+}
+.sub {
+    background-color: #53AD40;
+}
+#lista {
+    list-style: none;
+}
+.mylist::before {
+    content: '✔ ';
+}
+footer {
+    background-color: #466141;
+    text-align: center;
+    font-weight: bolder;
+}
